@@ -12,6 +12,22 @@ This project applies **topological data analysis (TDA)** — specifically the Ma
 
 ---
 
+## Visualizations
+
+### Topological Network Graph
+
+Each node is a market regime (a cluster of quarters with similar economic conditions). Edges represent transitions or overlaps between regimes. **Nodes are positioned by structural similarity, not chronology.** Two nodes that are close together represent similar market states — even if they occurred decades apart.
+
+![Topology Network](tulsa_housing_tda_topology.png)
+
+### Timeline View
+
+The same 59 regimes laid out chronologically, with recession bands (gray) and regime labels. This is the "when" view — the topology graph above is the "how are states related" view.
+
+![Timeline](tulsa_housing_tda_timeline.png)
+
+---
+
 ## Methodology
 
 ### Data Pipeline

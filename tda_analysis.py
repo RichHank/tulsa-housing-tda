@@ -582,6 +582,14 @@ try:
     pio.write_html(fig_topo, file=topo_html, auto_open=False)
     print(f"Topology visualization saved to: {topo_html}")
 
+    # Export static PNG for GitHub README
+    try:
+        topo_png = "tulsa_housing_tda_topology.png"
+        fig_topo.write_image(topo_png, width=1200, height=850, scale=1.5)
+        print(f"Topology PNG saved to: {topo_png}")
+    except Exception as e:
+        print(f"  PNG export failed (non-critical): {e}")
+
     HAS_NETWORKX_PLOTLY = True
 except ImportError as e:
     print(f"NetworkX or Plotly not available ({e}). Skipping topology vis.")
@@ -786,6 +794,14 @@ try:
     timeline_html = "tulsa_housing_tda_timeline.html"
     pio.write_html(fig_timeline, file=timeline_html, auto_open=False)
     print(f"Timeline visualization saved to: {timeline_html}")
+
+    # Export static PNG for GitHub README
+    try:
+        timeline_png = "tulsa_housing_tda_timeline.png"
+        fig_timeline.write_image(timeline_png, width=1200, height=750, scale=1.5)
+        print(f"Timeline PNG saved to: {timeline_png}")
+    except Exception as e:
+        print(f"  PNG export failed (non-critical): {e}")
 
 except ImportError:
     print("Plotly not installed. Skipping timeline visualization.")
