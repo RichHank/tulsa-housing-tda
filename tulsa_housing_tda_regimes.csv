@@ -1,0 +1,60 @@
+node_id,regime_label,start_date,end_date,num_quarters,avg_hpi,avg_qoq_growth_pct,avg_yoy_growth_pct,avg_unemployment_pct,avg_mortgage_rate_pct,avg_cpi
+cube10_cluster0,Stagnant / Slow Recovery,1990-06-30,1990-09-30,2,86.39,0.63,0.57,4.47,10.21,130.42
+cube4_cluster0,Stagnant / Slow Recovery,1990-06-30,1990-09-30,2,86.39,0.63,0.57,4.47,10.21,130.42
+cube3_cluster0,Stagnant / Slow Recovery,1990-06-30,1990-09-30,2,86.39,0.63,0.57,4.47,10.21,130.42
+cube9_cluster0,Stagnant / Slow Recovery,1990-06-30,1990-09-30,2,86.39,0.63,0.57,4.47,10.21,130.42
+cube5_cluster0,Growth Despite Tight Credit,1991-12-31,1994-03-31,9,92.74,0.97,3.7,5.82,7.94,142.16
+cube4_cluster1,Growth Despite Tight Credit,1991-12-31,1994-06-30,11,93.38,1.01,3.85,5.87,7.94,142.83
+cube3_cluster1,Growth Despite Tight Credit,1991-12-31,1994-09-30,12,93.8,0.95,3.83,5.81,7.99,143.33
+cube9_cluster1,Growth Despite Tight Credit,1995-06-30,2000-06-30,8,110.14,0.67,3.41,3.47,7.97,160.5
+cube8_cluster0,Growth Despite Tight Credit,1995-06-30,2001-06-30,22,115.41,1.08,4.55,3.4,7.62,163.58
+cube7_cluster0,Growth Despite Tight Credit,1995-06-30,2001-09-30,26,116.23,1.18,4.74,3.39,7.51,164.08
+cube3_cluster2,Growth Despite Tight Credit,1995-06-30,2000-06-30,8,110.14,0.67,3.41,3.47,7.97,160.5
+cube1_cluster0,Growth Despite Tight Credit,1995-06-30,2001-09-30,26,116.23,1.18,4.74,3.39,7.51,164.08
+cube2_cluster0,Growth Despite Tight Credit,1995-06-30,2001-06-30,22,115.41,1.08,4.55,3.4,7.62,163.58
+cube6_cluster0,Hot Labor + Housing Boom,1997-09-30,2001-09-30,12,120.7,1.46,5.6,3.33,7.12,166.92
+cube0_cluster0,Hot Labor + Housing Boom,1997-09-30,2001-09-30,12,120.7,1.46,5.6,3.33,7.12,166.92
+cube12_cluster0,Hot Labor + Housing Boom,1998-03-31,2001-09-30,8,124.68,1.56,6.03,3.33,7.1,169.34
+cube13_cluster0,Hot Labor + Housing Boom,1998-03-31,2001-09-30,12,125.58,1.51,5.67,3.17,7.41,170.29
+cube14_cluster0,Hot Labor + Housing Boom,1999-03-31,2001-06-30,9,126.59,1.43,5.55,3.11,7.58,171.08
+cube20_cluster0,Moderate Growth,2001-12-31,2006-03-31,18,146.11,0.77,3.23,4.81,6.07,187.17
+cube18_cluster0,Moderate Growth,2001-12-31,2002-06-30,3,138.09,0.88,4.37,4.48,6.85,178.34
+cube17_cluster0,Moderate Growth,2001-12-31,2002-06-30,3,138.09,0.88,4.37,4.48,6.85,178.34
+cube21_cluster0,Moderate Growth,2001-12-31,2006-03-31,18,146.11,0.77,3.23,4.81,6.07,187.17
+cube24_cluster0,Moderate Growth,2001-12-31,2008-06-30,27,151.48,0.8,3.34,4.44,6.15,193.84
+cube23_cluster0,Moderate Growth,2001-12-31,2007-09-30,23,149.05,0.85,3.28,4.59,6.15,190.79
+cube16_cluster0,Moderate Growth,2002-03-31,2002-06-30,2,138.36,0.56,3.57,4.68,6.89,178.77
+cube19_cluster0,Moderate Growth,2002-03-31,2006-03-31,17,146.61,0.72,3.07,4.85,6.03,187.74
+cube22_cluster0,Moderate Growth,2002-03-31,2006-06-30,18,147.12,0.69,3.06,4.79,6.06,188.49
+cube29_cluster0,Healthy Expansion,2004-06-30,2008-06-30,17,156.95,0.78,3.2,3.98,6.13,200.82
+cube28_cluster0,Moderate Growth,2004-06-30,2007-09-30,13,154.34,0.87,3.05,4.12,6.12,197.58
+cube27_cluster0,Slow Recovery / Normal,2004-06-30,2006-06-30,9,151.54,0.63,2.81,4.24,6.01,194.53
+cube30_cluster0,Healthy Expansion,2006-09-30,2008-06-30,8,163.03,0.95,3.64,3.69,6.26,207.9
+cube25_cluster0,Healthy Expansion,2006-09-30,2008-06-30,8,163.03,0.95,3.64,3.69,6.26,207.9
+cube35_cluster0,Healthy Expansion,2006-12-31,2008-06-30,7,163.85,0.94,3.72,3.69,6.22,208.57
+cube34_cluster0,Healthy Expansion,2006-12-31,2007-09-30,3,161.73,1.53,3.76,3.87,6.34,204.86
+cube36_cluster0,Healthy Expansion,2006-12-31,2008-06-30,7,163.85,0.94,3.72,3.69,6.22,208.57
+cube42_cluster0,Recession Stress,2010-06-30,2010-12-31,3,167.51,0.1,-0.04,6.64,4.6,218.31
+cube41_cluster0,Recession Stress,2010-06-30,2010-12-31,3,167.51,0.1,-0.04,6.64,4.6,218.31
+cube41_cluster1,Stagnant / Slow Recovery,2011-06-30,2011-12-31,3,162.83,0.29,-2.79,5.72,4.31,225.88
+cube42_cluster1,Stagnant / Slow Recovery,2011-06-30,2011-12-31,3,162.83,0.29,-2.79,5.72,4.31,225.88
+cube42_cluster2,Slow Recovery / Normal,2012-03-31,2013-06-30,6,165.37,0.26,1.29,5.21,3.63,230.45
+cube41_cluster2,Slow Recovery / Normal,2012-03-31,2016-12-31,14,173.3,0.43,2.4,4.78,3.74,235.2
+cube36_cluster1,Slow Recovery / Normal,2012-03-31,2013-06-30,6,165.37,0.26,1.29,5.21,3.63,230.45
+cube35_cluster1,Slow Recovery / Normal,2012-03-31,2016-12-31,14,173.3,0.43,2.4,4.78,3.74,235.2
+cube34_cluster1,Slow Recovery / Normal,2012-09-30,2018-06-30,20,179.21,0.81,2.84,4.46,3.95,239.48
+cube40_cluster0,Slow Recovery / Normal,2012-09-30,2018-06-30,20,179.21,0.81,2.84,4.46,3.95,239.48
+cube39_cluster0,Healthy Expansion,2013-09-30,2020-03-31,21,188.48,0.84,3.38,3.87,4.11,245.92
+cube33_cluster0,Moderate Growth,2013-09-30,2019-03-31,17,184.35,0.75,3.19,4.06,4.2,243.31
+cube35_cluster2,Moderate Growth,2015-03-31,2015-06-30,2,176.58,2.02,4.65,4.27,3.77,236.16
+cube40_cluster1,Moderate Growth,2015-03-31,2015-06-30,2,176.58,2.02,4.65,4.27,3.77,236.16
+cube41_cluster3,Moderate Growth,2015-03-31,2015-06-30,2,176.58,2.02,4.65,4.27,3.77,236.16
+cube34_cluster2,Moderate Growth,2015-03-31,2015-06-30,2,176.58,2.02,4.65,4.27,3.77,236.16
+cube40_cluster2,Housing Boom,2020-12-31,2021-03-31,2,222.46,2.31,6.62,5.33,2.82,262.42
+cube39_cluster1,Housing Boom,2020-12-31,2021-03-31,2,222.46,2.31,6.62,5.33,2.82,262.42
+cube38_cluster0,Healthy Expansion,2024-06-30,2025-03-31,4,321.73,1.5,4.89,3.23,6.74,315.82
+cube32_cluster0,Healthy Expansion,2024-06-30,2025-03-31,4,321.73,1.5,4.89,3.23,6.74,315.82
+cube26_cluster0,Healthy Expansion,2024-09-30,2024-12-31,2,320.74,1.13,4.6,3.2,6.57,315.35
+cube32_cluster1,Healthy Expansion,2025-06-30,2025-09-30,2,329.79,0.05,3.99,3.12,6.68,322.01
+cube26_cluster1,Healthy Expansion,2025-06-30,2025-09-30,2,329.79,0.05,3.99,3.12,6.68,322.01
+cube38_cluster1,Healthy Expansion,2025-06-30,2025-09-30,2,329.79,0.05,3.99,3.12,6.68,322.01
