@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  ttas:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: ttas_engine
+    ports:
+      - "8050:8050"
+    volumes:
+      - ..:/app
+    environment:
+      - DASH_DEBUG=True
+    command: >
+      bash -c "chmod +x setup.sh && ./setup.sh && python run_pipeline.py"

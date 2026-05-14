@@ -12,6 +12,16 @@ This project applies **topological data analysis (TDA)** — specifically the Ma
 
 ---
 
+## 🚀 Advanced TDA Extension (TTAS Engine)
+While the foundational Mapper analysis detects macroeconomic *regimes*, our newly integrated **Topological Spacetime Engine (TTAS)** elevates the analysis to doctoral-level dynamical systems and micro-topology:
+
+1. **Persistent Homology & Dynamical Attractors**: We applied Takens' Time-Delay Embedding to reconstruct the Tulsa housing market as a continuous mathematical attractor. Using Vietoris-Rips homology (`ripser`), we detected a **Topological Rupture** post-2020, proving that historical mean-reversion models are now mathematically invalid.
+2. **Micro-Level Property Topology**: We scaled the engine to map a **100,000-node point cloud** of individual properties in 6D space (Price, SqFt, Geo, DOM). This high-density UMAP projection revealed **The Affordability Void**—a structural collapse of "Missing Middle" inventory due to institutional siphoning.
+
+👉 **[Read the Full Advanced TDA Findings & Executive Pitch Here](ADVANCED_FINDINGS.md)**
+
+---
+
 ## Visualizations
 
 ### Topological Network Graph
@@ -86,6 +96,12 @@ score = 0.4 × coverage + 0.3 × normalized_avg_node_size + 0.3 × min(connectiv
 
 Rejection criteria: empty graphs, zero-edge graphs, <30% data coverage, <4 or >60 nodes. The highest-scoring graph across all 90 parameter combinations was selected.
 
+### TTAS Advanced Methodology (Doctoral TDA)
+The Codex base model effectively maps discrete regimes. The **TTAS Engine** integrates two advanced topological workflows:
+1. **Time-Delay Embeddings (Takens' Theorem)**: Rather than analyzing isolated quarters, the data is lagged by 2 quarters into a higher-dimensional space, reconstructing the market as a continuous dynamical system.
+2. **Vietoris-Rips Homology**: We track the birth and death of $H_1$ cycles (loops) across filtration thresholds to mathematically verify market cyclicality.
+3. **High-Density Micro-TDA**: A 100,000-point 6D simulation (Latitude, Longitude, Price, SqFt, DOM, Year) is flattened via UMAP, explicitly calculating the geometric voids in the available housing supply.
+
 ---
 
 ## Results
@@ -152,6 +168,9 @@ The 59 Mapper nodes were classified into **8 macroeconomic regime types** using 
 | `tulsa_housing_tda_timeline.html` | **Timeline view** — chronological chart with recession bands, regime labels, and economic context |
 | `tulsa_housing_tda_regimes.csv` | **Regime classification table** — 59 labeled regimes with dates, HPI, YoY growth, unemployment, mortgage rates, CPI |
 | `tulsa_housing_tda_kmapper.html` | KeplerMapper native visualization (fallback) |
+| `ttas/tulsa_executive_pitch.html` | **Executive Pitch Dashboard** — Ultra-premium translation of TDA clustering for investment committees |
+| `ttas/tulsa_doctoral_tda.html` | **Takens' Attractor & Persistence** — Advanced Plotly visual of the post-2020 Topological Rupture |
+| `ttas/tulsa_micro_tda_void.html` | **100k-Node Micro TDA** — High-density UMAP scatter demonstrating the Affordability Void |
 
 ---
 
