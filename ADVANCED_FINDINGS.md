@@ -10,7 +10,11 @@ Traditional models treat the housing market as a linear time-series. By applying
 * **The Rupture (2020–Present):** The post-COVID trajectory has entirely escaped this historical manifold. It is **not** a traditional bubble (which is just a bloated loop); it is a *Topological Flare*. 
 * **Executive Takeaway:** Historical mean-reversion models for Tulsa are now mathematically invalid. The correlation between local wages, borrowing costs, and HPI has shattered, driven by external capital and extreme supply inelasticity. The market is searching for an entirely new equilibrium manifold.
 
-[View the Doctoral TDA Dashboard (Interactive Plotly)](ttas/tulsa_doctoral_tda.html)
+![Bottleneck Fingerprint of a Bubble](ttas/bottleneck_bubble.png)
+
+*(Above: A static topological persistence diagram showing the 2008 crash vs current trajectory)*
+
+👉 **[Click Here to view the FULL Interactive Doctoral TDA Dashboard](ttas/tulsa_doctoral_tda.html)** *(Note: If viewing on the GitHub repo, this will show raw code. To view the interactive graph, visit the GitHub Pages URL directly or clone locally).*
 
 ---
 
@@ -25,14 +29,18 @@ A healthy housing market should resemble a continuous topological gradient—a b
 * **The Mechanism:** Properties in this bracket exhibit insanely compressed "Days on Market" vectors. They are instantly absorbed by institutional / cash-heavy buyers, preventing them from existing in the available manifold long enough for standard homebuyers to access.
 * **Executive Takeaway:** The housing ladder in Tulsa is topologically severed. Any capital deployed into developing or acquiring properties in this "Affordability Void" operates essentially as an arbitrage opportunity, as the absorptive pressure guarantees immediate realization of yield with zero inventory overhead.
 
-[View the Micro-Level Affordability Void TDA (Interactive 100k-Node Scatter)](ttas/tulsa_micro_tda_void.html)
+![The Topological Heart of Tulsa](ttas/euler_surface.png)
+
+*(Above: Simulated Euler characteristic surface of the local housing constraints)*
+
+👉 **[Click Here to view the Micro-Level Affordability Void TDA (Interactive 100k-Node Scatter)](ttas/tulsa_micro_tda_void.html)** *(Interactive HTML)*
 
 ---
 
 ## 3. Executive Pitch Translation
 To translate these findings for investment committees, we integrated the macro clustering into a stylized, pitch-ready Plotly dashboard. It explicitly isolates the "Hot Expansion" nodes and "Stable Growth" regimes, demonstrating how TDA provides a 2-to-3 quarter leading edge over traditional moving averages by detecting structural fractures *before* price capitulation occurs.
 
-[View the Executive Pitch Dashboard](ttas/tulsa_executive_pitch.html)
+👉 **[Click Here to view the Executive Pitch Dashboard](ttas/tulsa_executive_pitch.html)** *(Interactive HTML)*
 
 ---
 *Return to [Main README](README.md)*
